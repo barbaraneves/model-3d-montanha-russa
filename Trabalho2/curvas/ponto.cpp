@@ -10,10 +10,10 @@ void ponto::desenha(){
         glRotated(0,0,0,1);
         glRotated(0,0,1,0);
         glRotated(0,1,0,0);
-        glScaled(1, 1, 1);
+        glScaled(0.5, 0.5, 0.5);
 
         glTranslated(0.5,0.5,0.5);
-        //Desenha::drawBox(-0.2,-0.2,-0.2,0.2,0.2,0.2);
+
         glutSolidSphere(0.5,100,100);
     glPopMatrix();
 }

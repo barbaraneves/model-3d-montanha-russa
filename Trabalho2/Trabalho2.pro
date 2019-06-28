@@ -17,9 +17,9 @@ SOURCES += main.cpp \
     bib/model3ds.cpp \
     bib/Vetor3D.cpp \
     bib/objeto.cpp\
+    curvas/carrinho.cpp \
     curvas/curva.cpp \
     curvas/ponto.cpp \
-    curvas/trem.cpp \
     gui_glut/extra.cpp \
     gui_glut/gui.cpp
 
@@ -31,8 +31,8 @@ HEADERS += \
     bib/model3ds.h \
     bib/Vetor3D.h \
     bib/objeto.h\
+    curvas/carrinho.h \
     curvas/curva.h \
     curvas/ponto.h \
-    curvas/trem.h \
     gui_glut/extra.h \
     gui_glut/gui.h

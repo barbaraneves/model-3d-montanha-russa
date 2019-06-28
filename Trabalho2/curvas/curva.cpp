@@ -4,7 +4,7 @@
 Curva::Curva()
 {
     P = new Vetor3D[4];
-    this->setTipo(1);
+    this->setTipo(3);
 
 }
 
